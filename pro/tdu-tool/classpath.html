@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>クラスパスの設定</title>
+  </head>
+  
+  <body>
+  
+    <h1 class="title">クラスパス(CLASSPATH)の設定</h1>
+  
+  <h2>jarファイルのダウンロード</h2>
+    <p><a href="tdu-tool.jar">tdu-tool.jar</a> </p>
+    <p>ファイルをダウンロードし、Javaのソースコードを保存しているディレクトリ（フォルダ）に置いてください．</p>
+    <p>（ダウンロード後，ファイル名が変更された場合は，「tdu-tool.jar」に戻してください．）</p>
+    
+<h2>&nbsp;</h2>
+    <h2>環境変数の設定    </h2>
+    <p>「システムの詳細設定」の検索をします．</p>
+    <p>タスクバーの検索ボックスに，「システムの詳細設定」を入力します．</p>
+    <img src="images/203ap.png" alt="classpath_201">
+<p>&nbsp;</p>
+<p>検索結果の「システムの詳細設定の表示」をクリックします．</p>
+<p><img src="images/203bp.png" alt="classpath_202"></p>
+  <p>&nbsp;</p>
+  <p>[詳細設定]のタブを選択し，[環境変数]をクリックします．</p>
+  <p><img src="images/102p.png" alt="classpath_102"></p>
+    <p>&nbsp;</p>
+    <p>ユーザの環境変数の[新規]をクリックします．    </p>
+  <p><img src="images/103p.png" alt="classpath_103"></p>
+    <h1>&nbsp;</h1>
+    <h1><strong>[変数名]　CLASSPATH </strong></h1>
+  <h1><strong>[変数値]　.;tdu-tool.jar</strong></h1>
+    <p> を入力して，[OK]をクリックします．</p>
+    <p><img src="images\104p.png" alt="classpath_104"></p>
+    <p>&nbsp;</p>
+    <p>[OK]をクリックします．</p>
+  <p><img src="images\105p.png" alt="classpath_105"></p>
+    <p>&nbsp;</p>
+    <p>コマンドプロンプトを開きます．</p>
+    <p>set classpath [Enter]</p>
+  <p>CLASSPATH を確認します．</p>
+    <p><img src="images/106p.png" alt="classpath_106"></p>
+    <p>&nbsp;</p>
+    <p>cd pro [Enter]</p>
+  <p>プログラムのディレクトリに移動します．</p>
+    <p>dir tdu-tool.jar [Enter]</p>
+  <p>tdu-tool.jarを確認します．</p>
+    <p><img src="images/107p.png" alt="classpath_107"></p>
+    <p>&nbsp;</p>
+    <p>（注意事項）</p>
+    <p>「システムの詳細設定」を修正（変更）した場合は，「コマンドプロンプト」を開き直す必要があります．</p>
+    <p>&nbsp;</p>
+    <p>以上で，設定は完了です．</p>
+    <p>&nbsp;</p>
+<p>(設定チェックツール)</p>
+    <p>どうしてもキーボード入力等が動作しない場合は，以下のチェックツールで確認をしてください．</p>
+    <p>１．CT.bat, CT.class をダウンロードして，Javaのソースコードを保存しているディレクトリ（フォルダ）に置いてください．</p>
+    <p><a href="CT/CT.bat">CT.bat</a></p>
+    <p><a href="CT/CT.class">CT.class </a></p>
+  <p>&nbsp;</p>
+    <p>２．コマンドプロンプトを開きます．</p>
+  <p>C:\Users\xxxxxx&gt;</p>
+  <p>&nbsp;</p>
+  <p>３．Javaのソースコードを保存しているディレクトリ（フォルダ）に移動します．  </p>
+  <p>C:\Users\xxxxxx&gt; cd pro</p>
+  <p>&nbsp;</p>
+  <p>４．チェックツールを起動します．</p>
+  <p>C:\Users\xxxxxx\pro&gt; CT</p>
+    <p>&nbsp;</p>
+  <p>設定ミスがあれば，ヒントが表示されますので，修正してください．</p>
+    <p>&nbsp;</p>
+</body>
+</html>
