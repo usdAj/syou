@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>第2章 まとめ</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./A2_5.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./A2_1.htm">1</a> | 
+      <a href="./A2_2.htm">2</a> | 
+      <a href="./A2_3.htm">3</a> | 
+      <a href="./A2_4.htm">4</a> | 
+      <a href="./A2_5.htm">5</a> | 
+      <strong>6</strong> | 
+      next&gt;&gt;
+    </div>
+    
+    <h1 class="title">第2章 まとめ</h1>
+    
+    <h2>プログラムの骨格（おまじない）</h2>
+    <div class="summary">
+      <pre class="src">
+public class ClassName※{
+    public static void main(String[] args){
+        命令文等
+    }
+}
+※ClassNameは任意の名前に変更してください。
+      </pre>
+    </div>
+    
+    <h2>出力（改行無し）</h2>
+    <div class="summary">
+      <pre class="src">
+System.out.print("Hello World"); 
+      </pre>
+    </div>
+    
+    <h2>出力（改行有り）</h2>
+    <div class="summary">
+      <pre class="src">
+System.out.println("Hello World");
+あるいは
+
+System.out.print("Hello World<b>\n</b>");
+ただし、太字の<b>\n</b>はエスケープ・シーケンス※です。
+
+エスケープ・シーケンスは文字列の中で特別な意味（動作）を持っています。
+      </pre>
+    </div>
+    
+    <h2>コンパイル・実行</h2>
+    <div class="summary">
+      <table summary="">
+        <tr>
+          <th>コンパイル</th>
+          <th>&gt; javac ClassName.java</th>
+        </tr>
+        <tr>
+          <th>実行</th>
+          <th>&gt; java ClassName </th>
+        </tr>
+      </table>
+      <p>注意：ソースコードを変更した場合には、実行する前に必ずコンパイルを行うこと。</p>
+    </div>
+    
+    <h1 class="title">コラム</h1>
+    <h2>※エスケープ・シーケンス</h2>
+    <div class="summary">
+      <table summary="">
+        <tr>
+          <th>バックスペース</th>
+          <th>&yen;b</th>
+        </tr>
+        <tr>
+          <th>バックスラッシュ</th>
+          <th>&yen;&yen;</th>
+        </tr>
+        <tr>
+          <th>改行</th>
+          <th>&yen;n</th>
+        </tr>
+        <tr>
+          <th>一重引用符（シングルクォート）</th>
+          <th>&yen;'</th>
+        </tr>
+        <tr>
+          <th>二重引用符（ダブルクォート）</th>
+          <th>&yen;"</th>
+        </tr>
+        <tr>
+          <th>タブ</th>
+          <th>&yen;t</th>
+        </tr>
+      </table>
+      
+    </div>
+    
+  </body>
+</html>
