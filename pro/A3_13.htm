@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>3.13 まとめ</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./A3_12.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./A3_1.htm">1</a> | 
+      <a href="./A3_2.htm">2</a> | 
+      <a href="./A3_3.htm">3</a> | 
+      <a href="./A3_4.htm">4</a> | 
+      <a href="./A3_5.htm">5</a> | 
+      <a href="./A3_6.htm">6</a> | 
+      <a href="./A3_7.htm">7</a> | 
+      <a href="./A3_8.htm">8</a> | 
+      <a href="./A3_9.htm">9</a> | 
+      <a href="./A3_10.htm">10</a> | 
+      <a href="./A3_11.htm">11</a> | 
+      <a href="./A3_12.htm">12</a> | 
+      <strong>13</strong> | 
+      next&gt;&gt;
+    </div>
+  
+    <h1 class="title">3.13 まとめ</h1>
+    
+    <h2>変数</h2>
+    <div class="summary">
+    <p>「変数」とは、ある決まった値を一時的に保存しておく物だと考えます。下記の繰り返し全体のソースコードの太字で書かれた<b>i</b>が変数になります。変数名は任意に決められますが使用する前に宣言しなければなりません。</p>
+    <p>整数型変数（32ビット）では</p>
+    <p>int <b>i</b>;と宣言します。</p>
+    <p>下記の繰り返しの例では繰り返しの各回で変数iの値は１増加します。</p>
+    <p>宣言と同時に整数型変数の値を設定（初期化）するにはint <b>i</b> = 0;と記述します。この変数<b>i</b>の値は0になります。変数に値を設定する操作を「代入」と言います。変数を宣言した後は何時でも'='演算子を使用することで代入を行うことができます。</p>
+    </div>
+    
+
+    <h2>繰り返し（for制御文）</h2>
+    <div class="summary">
+    <pre class="src">
+for(int <b>i</b> = 0; <b>i</b> < 繰り返す回数; <b>i</b>++){
+    繰り返す命令文
+}
+    </pre>
+    </div>
+    
+    
+    <h2>整数型</h2>
+    <div class="summary">
+    <table>
+      <tr>
+        <th>型</th>
+        <th>サイズ</th>
+        <th>有効な値の範囲</th>
+        <th>初期値</th>
+      </tr>
+      <tr>
+        <td>byte</td>
+        <td>8ビット</td>
+        <td>-128〜127</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>short</td>
+        <td>16ビット</td>
+        <td>-32768〜32767</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>int</td>
+        <td>32ビット</td>
+        <td>-2147483648〜2147483647</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>long</td>
+        <td>64ビット</td>
+        <td>-9223372036854775808
+〜9223372036854775807</td>
+        <td>0L</td>
+      </tr>
+    </table>
+    </div>
+    
+    
+    <h2>代表的な算術演算子</h2>
+    <div class="summary">
+    <table>
+      <tr>
+        <th>優先順位</th>
+        <th>演算子</th>
+        <th>説明</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>()</td>
+        <td>式をまとめる</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>++</td>
+        <td>1を足す</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>--</td>
+        <td>1を引く</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>*</td>
+        <td>乗算</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>/</td>
+        <td>除算</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>%</td>
+        <td>剰余（あまり）</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>+</td>
+        <td>加算</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>-</td>
+        <td>減算</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>=</td>
+        <td>代入</td>
+      </tr>
+    </table>
+    </div>   
+    
+    
+  </body>
+</html>
