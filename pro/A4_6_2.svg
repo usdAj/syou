@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1,.cls-16,.cls-18,.cls-19,.cls-4,.cls-8,.cls-9{fill:none;}.cls-2{fill:#eeeeef;}.cls-3{clip-path:url(#clip-path);}.cls-16,.cls-18,.cls-19,.cls-4{stroke:#231815;}.cls-4{stroke-width:0.28px;}.cls-5{font-size:12px;}.cls-10,.cls-17,.cls-20,.cls-21,.cls-5,.cls-7{fill:#231815;}.cls-10,.cls-5,.cls-7{font-family:MS-Gothic, MS Gothic;}.cls-6{fill:#fff;}.cls-7{font-size:18px;}.cls-8{stroke:#f09dc1;}.cls-16,.cls-18,.cls-19,.cls-8,.cls-9{stroke-miterlimit:10;}.cls-8,.cls-9{stroke-width:17.5px;}.cls-9{stroke:#6f6;}.cls-10,.cls-20,.cls-21{font-size:14px;}.cls-11{letter-spacing:2.07em;}.cls-12{letter-spacing:0.25em;}.cls-13{fill:#ffb2b2;}.cls-14{fill:#b2b2ff;}.cls-15{fill:#b2ffb2;}.cls-16{stroke-width:1.4px;}.cls-17{font-size:16.8px;}.cls-17,.cls-20{font-family:MS-Mincho, MS Mincho;}.cls-18{stroke-width:0.66px;}.cls-19{stroke-width:0.7px;}.cls-21{font-family:KozGoPr6N-Regular-90ms-RKSJ-H, Kozuka Gothic Pr6N;}</style>
+  <clipPath id="clip-path">
+   <rect id="svg_1" height="468.14" width="405.95" y="34.86" x="49" class="cls-1"/>
+  </clipPath>
+ </defs>
+ <title>A4_6</title>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="434.1" width="387.35" y="68.76" x="57.8" class="cls-2"/>
+  <g id="svg_3" class="cls-3">
+   <rect id="svg_4" height="434.1" width="387.35" y="68.76" x="57.8" class="cls-4"/>
+  </g>
+  <text id="svg_5" x="65.800003" y="86.07" class="cls-5">プログラムの枠組み（クラス図）</text>
+  <rect id="svg_6" height="60.06" width="294.95" y="267.38" x="95.55" class="cls-6"/>
+  <text id="svg_7" x="58" y="57.330002" class="cls-7">①図とプログラム</text>
+  <rect id="svg_8" height="60.06" width="215.7" y="329.95" x="95.85" class="cls-6"/>
+  <line id="svg_9" y2="255.07" x2="188.2" y1="255.07" x1="160.2" class="cls-8"/>
+  <line id="svg_10" y2="276.07" x2="266.2" y1="276.07" x1="238.2" class="cls-9"/>
+  <line id="svg_11" y2="339.07" x2="286" y1="339.07" x1="238.2" class="cls-9"/>
+  <text id="svg_12" x="69.199997" y="260.390015" class="cls-10">public class</text>
+  <text id="svg_13" x="160.199997" y="260.390015" class="cls-10">A4_5</text>
+  <text id="svg_14" x="188.199997" y="260.390015" class="cls-10">{</text>
+  <text id="svg_15" x="69.199997" y="281.390015" class="cls-10"/>
+  <text id="svg_16" x="105.190002" y="281.390015" class="cls-10">public static void</text>
+  <text id="svg_17" x="238.190002" y="281.390015" class="cls-10">main</text>
+  <text id="svg_18" x="266.190002" y="281.390015" class="cls-10">(String[] args){</text>
+  <text id="svg_19" x="69.199997" y="302.390015" class="cls-10"/>
+  <text id="svg_20" x="69.199997" y="323.390015" class="cls-10"/>
+  <text id="svg_21" x="105.190002" y="323.390015" class="cls-10">}</text>
+  <text id="svg_22" x="69.199997" y="344.390015" class="cls-10"/>
+  <text id="svg_23" x="105.190002" y="344.390015" class="cls-10">public static void display(){</text>
+  <text id="svg_24" x="69.199997" y="365.390015" class="cls-10"/>
+  <text id="svg_25" x="69.199997" y="386.390015" class="cls-10"/>
+  <text id="svg_26" x="105.190002" y="386.390015" class="cls-10">}</text>
+  <text id="svg_27" x="69.199997" y="407.390015" class="cls-10">}</text>
+  <text id="svg_28" x="71.050003" y="232.070007" class="cls-5">プログラ
+   <tspan id="svg_29" y="232.070007" x="119.050003" class="cls-12">ム</tspan>
+   <tspan id="svg_30" y="232.070007" x="134.050003">A4_5</tspan></text>
+  <rect id="svg_31" height="30.24" width="190.51" y="95.88" x="67.34" class="cls-13"/>
+  <rect id="svg_32" height="26.21" width="190.51" y="126.12" x="67.34" class="cls-14"/>
+  <rect id="svg_33" height="48.38" width="190.51" y="152.32" x="67.34" class="cls-15"/>
+  <line id="svg_34" y2="95.88" x2="258.55" y1="95.88" x1="66.64" class="cls-16"/>
+  <line id="svg_35" y2="126.12" x2="258.55" y1="126.12" x1="66.64" class="cls-16"/>
+  <line id="svg_36" y2="152.32" x2="258.55" y1="152.32" x1="66.64" class="cls-16"/>
+  <line id="svg_37" y2="96.58" x2="67.34" y1="125.42" x1="67.34" class="cls-16"/>
+  <line id="svg_38" y2="126.82" x2="67.34" y1="151.62" x1="67.34" class="cls-16"/>
+  <line id="svg_39" y2="153.02" x2="67.34" y1="200.01" x1="67.34" class="cls-16"/>
+  <line id="svg_40" y2="96.58" x2="257.85" y1="125.42" x1="257.85" class="cls-16"/>
+  <line id="svg_41" y2="126.82" x2="257.85" y1="151.62" x1="257.85" class="cls-16"/>
+  <line id="svg_42" y2="153.02" x2="257.85" y1="200.01" x1="257.85" class="cls-16"/>
+  <line id="svg_43" y2="200.71" x2="258.55" y1="200.71" x1="66.64" class="cls-16"/>
+  <text style="cursor: move;" fill="black" id="svg_44" x="141.600006" y="117.029999" class="cls-17">A4_5</text>
+  <line id="svg_45" y2="169.49" x2="112.18" y1="169.49" x1="70.18" class="cls-18"/>
+  <line id="svg_46" y2="169.51" x2="138.62" y1="169.51" x1="112.18" class="cls-19"/>
+  <line id="svg_47" y2="169.49" x2="243.62" y1="169.49" x1="138.62" class="cls-18"/>
+  <line id="svg_48" y2="186.29" x2="168.18" y1="186.29" x1="70.18" class="cls-18"/>
+  <text style="cursor: move;" fill="black" id="svg_49" x="69.6175" y="167.190002" class="cls-20">main(</text>
+  <text id="svg_50" x="112.18" y="167.479996" class="cls-21">args</text>
+  <text id="svg_51" x="138.619995" y="167.190002" class="cls-20">:String[]):void</text>
+  <text style="cursor: move;" fill="black" id="svg_52" x="70.18" y="183.990005" class="cls-20">display():void</text>
+ </g>
+</svg>
