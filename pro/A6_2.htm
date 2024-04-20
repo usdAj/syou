@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>6.2 返却値1</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./A6_1.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./A6_1.htm">1</a> | 
+      <strong>2</strong> | 
+      <a href="./A6_3.htm">3</a> | 
+      <a href="./A6_4.htm">4</a> | 
+      <a href="./A6_5.htm">5</a> | 
+      <a href="./A6_6.htm">6</a> | 
+      <a href="./A6_7.htm">7</a> | 
+      <a href="./A6_8.htm">8</a> | 
+      <a href="./A6_9.htm">9</a> | 
+      <a href="./A6_10.htm">10</a> | 
+      <a href="./A6_11.htm">11</a> | 
+      <a href="./A6_12.htm">12</a> | 
+      <a href="./A6_13.htm">13</a> | 
+      <a href="./A6_3.htm" accesskey="n">next&gt;&gt;</a>
+</div>
+  
+    <h1 class="title">6.2 返却値1</h1>
+    
+    <div id="content">
+      <h2>プログラム</h2>
+      <img src="./A6_2src.png" alt="A6_2">
+    </div>
+    
+    <div id="explain">
+      <h2>図とプログラムの説明</h2>
+      <table class="explain" summary="explain">
+        <tr>
+          <th>返却値</th>
+          <td>
+            <p>クラス図を見てください。</p>
+            <p>三段目の振る舞いには二つの振る舞いが記述されています。</p>
+            <p>main(<b>args</b>:String[]):voidでは、</p>
+            <p>振る舞いの名前、括弧の中は引数の変数名と型、コロン、voidが指定されていました。</p>
+            <p>振る舞いには値を渡せるように引数がありました。引数を利用することでスコープを超えて値を渡すことができました。ですが、引数で値を渡すのは一方向のみでした。</p>
+            <p>つまり、振る舞いを呼び出す側のみ値を渡すことができました。</p>
+            <p>呼び出された振る舞いから呼び出し側に値を返すことはできないのでしょうか。</p>
+            <p>Java言語では呼び出された振る舞いから</p>
+            <p>return返却される物;</p>
+            <p>と指定することで呼び出し側に値を返却することができます。</p>
+            <p>この値を「<b>返却値</b>」と言います。</p>
+            <p>getMessage():String</p>
+            <p>の記述ではvoidの代わりにStringが指定されています。この振る舞いでは文字列が返却値となります。</p>
+          </td>
+        </tr>
+        <tr>
+          <th>void</th>
+          <td>
+            <p>voidは特殊なキーワードで返却値が無い場合の記述になります。</p>
+          </td>
+        </tr>
+      </table>
+      
+    </div>
+  </body>
+</html>
