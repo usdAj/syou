@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"jp.tdu.util","l":"KeyboardReader"},{"p":"jp.tdu.util","l":"RandomNumber"},{"p":"jp.tdu.util","l":"TextFileReader"},{"p":"jp.tdu.util","l":"TextFileWriter"},{"p":"jp.tdu.util","l":"Tokens"},{"l":"すべてのクラスおよびインタフェース","u":"allclasses-index.html"}];updateSearchResults();
