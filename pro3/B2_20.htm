@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>2.20 Teacher クラスの完成</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./B2_19.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./B2_1.htm">1</a> | 
+      <a href="./B2_2.htm">2</a> | 
+      <a href="./B2_3.htm">3</a> | 
+      <a href="./B2_4.htm">4</a> | 
+      <a href="./B2_5.htm">5</a> | 
+      <a href="./B2_6.htm">6</a> | 
+      <a href="./B2_7.htm">7</a> | 
+      <a href="./B2_8.htm">8</a> | 
+      <a href="./B2_9.htm">9</a> | 
+      <a href="./B2_10.htm">10</a> | 
+      <a href="./B2_11.htm">11</a> | 
+      <a href="./B2_12.htm">12</a> | 
+      <a href="./B2_13.htm">13</a> | 
+      <a href="./B2_14.htm">14</a> | 
+      <a href="./B2_15.htm">15</a> | 
+      <a href="./B2_16.htm">16</a> | 
+      <a href="./B2_17.htm">17</a> | 
+      <a href="./B2_18.htm">18</a> | 
+      <a href="./B2_19.htm">19</a> | 
+      <strong>20</strong> | 
+      <a href="./B2_21.htm">21</a> | 
+      <a href="./B2_22.htm">22</a> | 
+      <a href="./B2_21.htm" accesskey="n">next&gt;&gt;</a>
+    </div>
+  
+    <h1 class="title">2.20 Teacher クラスの完成</h1>
+    
+    <div id="content">
+      <h2>プログラム</h2>
+      <img src="./B2_20src.png" alt="B2_20">
+    </div>
+    
+    <div id="explain">
+      <h2>プログラムの説明</h2>
+      <table class="explain" summary="explain">
+        <tr>
+          <th>Teacherクラスの完成</th>
+          <td>
+            <p>クラス図Teacherを見てください。</p>
+            <p>状態の1つの給与（salary）に100000が代入されています。この値を初任給と考えましょう。</p>
+            <p>職歴・昇進などにより、給与の値は変更されます。オブジェクトが生成（インスタンス化）されてからの変更も多いと考えられます。このことから給与の値をコンストラクタでは設定しない方針とします。</p>
+            <p>Teacherクラスを完成させるには上記のようなクラスの設計を考える必要があります。つまり、コンストラクタでは何を行うかを考えなければなりません。</p>
+            <p>クラスのソースコードを見てください。状態の1つsalaryを宣言と同時に100000で初期化しています。</p>
+            <p>これにより、オブジェクトにsetSalary()メッセージを送ら（メソッドを呼び出さ）なくても状態であるsalaryの初期値が設定されます。</p>
+            <p>次に、setSalaryメソッドの宣言を見ます。</p>
+            <p>public void setSalary(int salary) { }</p>
+            <p>返却値の型としてvoidが指定されていますが、これは返却値が無いことを意味しています。</p>
+          </td>
+        </tr>
+        <tr>
+          <th>void</th>
+          <td>
+            <p>java言語では返却値が無いことを意味しています。c++では無名型として解釈されます。</p>
+          </td>
+        </tr>
+      </table>
+      
+      
+    </div>
+  </body>
+</html>
