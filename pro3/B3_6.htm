@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>3.6 main メソッド、クラス、返却値</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./B3_5.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./B3_1.htm">1</a> | 
+      <a href="./B3_2.htm">2</a> | 
+      <a href="./B3_3.htm">3</a> | 
+      <a href="./B3_4.htm">4</a> | 
+      <a href="./B3_5.htm">5</a> | 
+      <strong>6</strong> | 
+      <a href="./B3_7.htm">7</a> | 
+      <a href="./B3_8.htm">8</a> | 
+      <a href="./B3_9.htm">9</a> | 
+      <a href="./B3_10.htm">10</a> | 
+      <a href="./B3_7.htm" accesskey="n">next&gt;&gt;</a>
+    </div>
+  
+    <h1 class="title">3.6 main メソッド、クラス、返却値</h1>
+    
+    <div id="content">
+      <h2>プログラム</h2>
+      <img src="./B3_6src_2.png" alt="B3_6">
+    </div>
+    
+    <div id="explain">
+      <h2>プログラムの説明</h2>
+      <table class="explain" summary="explain">
+        <tr>
+          <th>mainメソッドとクラス</th>
+          <td>
+            <p>プログラムB3_3を見てください。このmainメソッドでDiceオブジェクトが生成（インスタンス化）されています。</p>
+            <p>確認になりますが、オブジェクトを使用するにはクラスのコンストラクタ（クラス名と同じ特殊なメソッド）を呼び出しオブジェクトを生成する必要があります。</p>
+            <p>Diceクラスのソースコードを見てください。クラスはオブジェクトの設計図でした。</p>
+            <p>クラスは基本的に以下の三つの宣言から成り立っています。</p>
+            <ul>
+              <li>クラスの宣言</li>
+              <li>状態（インスタンス変数など）の宣言</li>
+              <li>振る舞い（メソッド）の宣言</li>
+            </ul>
+            <p>クラス宣言のブロックで状態の宣言と振る舞いの宣言が行われます。ただし、状態の宣言の順番やメソッドの宣言の順番には意味がありません。</p>
+            <p>つまり、Diceクラス宣言のブロックでは実行が上から下に動作してはいません。</p>
+            <p>もう一度、プログラムB3_3を見てください。mainメソッドの命令の各行に番号が付いています。各行の意味は</p>
+            <ol>
+              <li>Diceクラスの変数の宣言になります。宣言と同時にDiceオブジェクトが生成され、変数名diceでラベリングされています。</li>
+              <li>変数名diceでラベリングしたオブジェクトにcastメッセージを送ります。引数はありません。</li>
+              <li>変数名diceでラベリングしたオブジェクトにgetValueメッセージを送ります。引数はありませんが、返却値として状態のthis.valueの値が返却されます。</li>
+            </ol>
+            <p>となります。</p>
+          </td>
+        </tr>
+        <tr>
+          <th>返却値</th>
+          <td>
+            <p>引数とはメソッドに渡される値（オブジェクト）で、返却値とはメソッドの部分に返却される値（オブジェクト）となります。</p>
+            <p>それでは、Diceクラスのソースコードを見てください。各mainメソッドメッセージがどのようにDiceオブジェクトに伝えられるかを説明します。</p>
+            <p>まず、B3_3のDiceオブジェクトに対するメッセージの順番がDiceクラスのメソッドの動作になります。</p>
+            <p>オブジェクト側からは以下のように振る舞います。</p>
+            <ol>
+              <li>コンストラクタが呼び出されます。返却値としてDiceオブジェクトが返却されます。<p>コンストラクタのブロックでは何も行いません。</p></li>
+              <li>castメソッドが呼び出されます。返却値はありません。<p>castのブロックでオブジェクトの状態であるthis.valueにRandomオブジェクトから乱数を生成し、その値を代入します。</p></li>
+              <li>getValueメソッドが呼び出されます。引数はありませんが、返却値として状態のthis.valueを呼び出し元に返却します。<p>getValueのブロックでは返却するthis.valueをreturnキーワードで指定します。</p></li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+      
+      
+    </div>
+  </body>
+</html>
