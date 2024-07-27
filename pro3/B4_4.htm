@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>4.4 Cup クラスの完成</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./B4_3.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./B4_1.htm">1</a> | 
+      <a href="./B4_2.htm">2</a> | 
+      <a href="./B4_3.htm">3</a> | 
+      <strong>4</strong> | 
+      <a href="./B4_5.htm">5</a> | 
+      <a href="./B4_6.htm">6</a> | 
+      <a href="./B4_7.htm">7</a> | 
+      <a href="./B4_8.htm">8</a> | 
+      <a href="./B4_9.htm">9</a> | 
+      <a href="./B4_10.htm">10</a> | 
+      <a href="./B4_5.htm" accesskey="n">next&gt;&gt;</a>
+    </div>
+  
+    <h1 class="title">4.4 Cup クラスの完成</h1>
+    
+    
+    <div id="content">
+      <h2>プログラム</h2>
+      <img src="./B4_4src_3.png" alt="B4_4">
+    </div>
+    
+    <div id="explain">
+      <h2>プログラムの説明</h2>
+      <table class="explain" summary="explain">
+        <tr>
+          <th>Cupクラスの完成とCupオブジェクトの動作</th>
+          <td>
+            <p>プログラムCupを見てください。</p>
+            <p>もう一度、クラスとは何かを思いだしてください。クラスとはオブジェクトの設計図でした。</p>
+            <p>クラスは基本的に以下の三つの宣言から成り立っています。</p>
+            <ul>
+              <li>クラスの宣言</li>
+              <li>状態（インスタンス変数など）の宣言</li>
+              <li>振る舞い（メソッド）の宣言</li>
+            </ul>
+            <p>クラス宣言のブロックで状態の宣言と振る舞いの宣言が行われます。ただし、状態の宣言の順番やメソッドの宣言の順番には意味がありません。</p>
+            <p>つまり、Cupクラス宣言のブロックでは実行が上から下に動作してはいません。</p>
+            <p>では、どの順番で実行されているのでしょうか。以下は一例です。</p>
+            <ol>
+              <li>mainメソッドなどによりコンストラクタが呼び出されます。</li>
+              <li>オブジェクトの生成と同時に状態の宣言が実行されます。ただし、状態の宣言に依存関係があった場合には適切な順番で宣言が実行されます。これ以降、任意のメソッドのブロックから使用することができます。</li>
+              <li>mainメソッドにオブジェクトの参照が返却されます。</li>
+              <li>mainメソッドからオブジェクトの任意のメソッドが呼び出されます。ただし、mainメソッドから引数が渡される場合があります。</li>
+              <li>オブジェクトのメソッドのブロックを実行します。受け取った引数をオブジェクトのメソッドのブロックでは変数名で使用することができます。この時、当然ですがオブジェクトの状態もthis.変数名で使用することができます。</li>
+              <li>メソッドにreturnで返却値がある場合にmainメソッドの呼び出し側に返却されます。</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+      
+      
+    </div>
+  </body>
+</html>

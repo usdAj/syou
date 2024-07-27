@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>4.3 繰り返し</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./B4_2.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./B4_1.htm">1</a> | 
+      <a href="./B4_2.htm">2</a> | 
+      <strong>3</strong> | 
+      <a href="./B4_4.htm">4</a> | 
+      <a href="./B4_5.htm">5</a> | 
+      <a href="./B4_6.htm">6</a> | 
+      <a href="./B4_7.htm">7</a> | 
+      <a href="./B4_8.htm">8</a> | 
+      <a href="./B4_9.htm">9</a> | 
+      <a href="./B4_10.htm">10</a> | 
+      <a href="./B4_4.htm" accesskey="n">next&gt;&gt;</a>
+    </div>
+  
+    <h1 class="title">4.3 繰り返し</h1>
+    
+    <div id="content">
+      <h2>プログラム</h2>
+      <img src="./B4_3src_3.png" alt="B4_3">
+    </div>
+    
+    <div id="explain">
+      <h2>プログラムの説明</h2>
+      <table class="explain" summary="explain">
+        <tr>
+          <th>繰り返し</th>
+          <td>
+            <p>繰り返しforは</p>
+            <pre>
+for(初期化; 条件; 反復){
+    繰り返しのブロック
+}
+            </pre>
+            <p>と記述できます。</p>
+            <p>メソッドgetSumを見てください。</p>
+            <p>forの初期化でカウンターである変数iを宣言し値を0にします。</p>
+            <p>条件で size（ArrayListオブジェクトに管理されているオブジェクトの数）よりカウンターiが小さい間はブロックを繰り返します。</p>
+            <p>反復でブロックを繰り返すたびにカウンターiを1増加します。</p>
+            <p>このメソッド（振る舞い）は合計を計算します。合計を計算する整数型の変数sumはforのブロックの中では宣言できません。</p>
+            <p>理由はブロックの中で宣言した変数は、それ以降のブロックの最後までしか有効ではありません。これを変数のスコープと言います。</p>
+            <p>この場合は当然、ブロックの繰り返しのたびに変数の初期化が行われます。</p>
+          </td>
+        </tr>
+      </table>
+      
+      
+    </div>
+  </body>
+</html>

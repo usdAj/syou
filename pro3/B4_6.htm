@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>4.6 状態の宣言とthis と状態</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./B4_5.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./B4_1.htm">1</a> | 
+      <a href="./B4_2.htm">2</a> | 
+      <a href="./B4_3.htm">3</a> | 
+      <a href="./B4_4.htm">4</a> | 
+      <a href="./B4_5.htm">5</a> | 
+      <strong>6</strong> | 
+      <a href="./B4_7.htm">7</a> | 
+      <a href="./B4_8.htm">8</a> | 
+      <a href="./B4_9.htm">9</a> | 
+      <a href="./B4_10.htm">10</a> | 
+      <a href="./B4_7.htm" accesskey="n">next&gt;&gt;</a>
+    </div>
+  
+    <h1 class="title">4.6 状態の宣言とthis と状態</h1>
+    
+    <div id="content">
+      <h2>プログラム</h2>
+      <img src="./B4_6src_2.png" alt="B4_6">
+    </div>
+    
+    <div id="explain">
+      <h2>プログラムの説明</h2>
+      <table class="explain" summary="explain">
+        <tr>
+          <th>状態の宣言</th>
+          <td>
+            <p>Teacherクラスの状態の宣言を見てください。</p>
+            <p>クラスとクラス図は状態の宣言部分を持っていますが、オブジェクト図は状態そのものを持っています。</p>
+            <p>この違いは重要です。</p>
+            <p>ソースコードの青の部分は状態の宣言部であり、オブジェクトが生成されて初めて状態として使用することができます。</p>
+            <p>各メソッドのブロックでは状態の宣言が完了したと考えることができます。</p>
+          </td>
+        </tr>
+        <tr>
+          <th>thisと状態</th>
+          <td>
+            <p>つまり、状態の宣言が完了しオブジェクトの生成が行われたあとには、各メソッドのブロック内で状態を自由に使用することができます。</p>
+            <p>このとき、状態を参照する（使用する）のに引数やローカル変数と区別するためthis.を先頭に付加しています。</p>
+          </td>
+        </tr>
+      </table>
+      
+      
+    </div>
+  </body>
+</html>
