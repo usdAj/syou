@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>5.11 振る舞いの抽出（インタフェース）</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <a href="./B5_10.htm" accesskey="p">&lt;&lt;previous</a> |  
+      <a href="./index.htm">index</a> | 
+      <a href="./B5_1.htm">1</a> | 
+      <a href="./B5_2.htm">2</a> | 
+      <a href="./B5_3.htm">3</a> | 
+      <a href="./B5_4.htm">4</a> | 
+      <a href="./B5_5.htm">5</a> | 
+      <a href="./B5_6.htm">6</a> | 
+      <a href="./B5_7.htm">7</a> | 
+      <a href="./B5_8.htm">8</a> | 
+      <a href="./B5_9.htm">9</a> | 
+      <a href="./B5_10.htm">10</a> | 
+      <strong>11</strong> | 
+      <a href="./B5_12.htm">12</a> | 
+      <a href="./B5_13.htm">13</a> | 
+      <a href="./B5_12.htm" accesskey="n">next&gt;&gt;</a>
+    </div>
+  
+    <h1 class="title">5.11 振る舞いの抽出（インタフェース）</h1>
+    
+    <div id="content">
+      <h2>クラス図</h2>
+      <img src="./B5_11src_3.png" alt="B5_11">
+    </div>
+    
+    <div id="explain">
+      <h2>プログラムの説明</h2>
+      <table class="explain" summary="explain">
+        <tr>
+          <th>振る舞いの抽出（インタフェース）</th>
+          <td>
+            <p>クラス図を見てください。Dice、EvenDiceとOddDiceには同じ振る舞いがあることが分かります。</p>
+            <p>クラス名とコンストラクタ名はそれぞれ違いますが、</p>
+            <ul>
+              <li>castメソッド</li>
+              <li>getValueメソッド</li>
+            </ul>
+            <p>が同じことが分かります。</p>
+            <p>この同じ振る舞いだけを抽出することができます。振る舞いのみを抽出したものをインタフェースと言います。</p>
+            <p>インタフェースを抽出し、インタフェースを実装することにより、それぞれのオブジェクトを区別することなしに使用することができます。ただし、Castable型で扱わなければなりません。</p>
+            <p>各々のインタフェース図とクラス図は△の矢印と破線で関係を表すことができます。</p>
+          </td>
+        </tr>
+      </table>
+      
+      
+    </div>
+  </body>
+</html>
